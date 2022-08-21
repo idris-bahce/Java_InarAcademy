@@ -1,0 +1,30 @@
+Assignment - 2
+
+Terminal
+
+2 - go to ~ page, create a directory called "workspace"
+3 - create a new director under workspace called "InarAcademy"
+4 - get into the InarAcademy folder
+4.5 - Github create a new repo named "Java_InarAcademy"
+5 - clone the newly created repo to your local machine
+
+Eclipse
+6 - Open Eclipse
+7 - Name 		: Java_InarAcademy
+ 	Location	: workspace/InarAcademy/Java_InarAcademy
+ 	Java8
+
+
+Terminal
+/Users/tarik/workspace/InarAcademy/Java_InarAcademy
+
+go into src folder
+
+8 - create a folder named "chapters" - This folder will be used for uploading Introduction to Java Programming Exercises
+9 - create another folder named "weeks" - This folder will hold all the materials/codes etc we have used/write during live classes
+10 - go to weeks and create a folder named "week_02"
+
+
+11 - Create a java class that has a main method which prints out "I love wooden spoon" when executed.
+12 - Run the required commands to print "I love wooden spoon" in terminal
+
