@@ -1,0 +1,10 @@
+byte:(-128 to 127)
+short: (-32768 to 32767)
+int: (-2147483648 to 2147483647)
+long: makes 19 digits of number
+(i.e., -9223372036854775808 to 9223372036854775807)
+float Negative range: -3.4028235E + 38 to -1.4E - 45 32-bit IEEE 754 Positive range: 1.4E - 45 to 3.4028235E + 38
+double Negative range: -1.7976931348623157E + 308 to -4.9E - 324 Positive range: 4.9E - 324 to 1.7976931348623157E + 308
+So the byte takes least amount of memory wit 8 bits
+~
+
