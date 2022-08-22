@@ -1,0 +1,3 @@
+25/4=6 in java programing.
+If i want it to be floating point number 
+i should write it like this: 25.0/4=6.25

@@ -1,0 +1,6 @@
+ Answer of this problem is simple.
+ However i couldn't do it in java program.
+ This is beginning of the week. Maybe i will be
+ able to write a proper code for this problemat the end of the week.
+ Here is the solution:100%7=2
+ So if today is tuesday it will be thursday in 100 days.
