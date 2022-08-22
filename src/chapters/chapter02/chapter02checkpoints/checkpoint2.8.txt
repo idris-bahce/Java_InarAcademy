@@ -1,0 +1,9 @@
+ We use lovercase for variables and methods.If there are two 
+ or more words we capitalise first letter of second word without
+ separating them.
+ We capitalise te first letter of class names.
+ We capitalise every letter in constans. If there are two or
+ more words we put "_" between.
+ Method name: read, readDouble
+ constant name: MAX_VALUE
+ class name: Test
