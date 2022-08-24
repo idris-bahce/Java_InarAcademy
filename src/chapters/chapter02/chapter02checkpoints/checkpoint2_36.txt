@@ -1,0 +1,1 @@
+No. it will couse a logic error which is dangerous.

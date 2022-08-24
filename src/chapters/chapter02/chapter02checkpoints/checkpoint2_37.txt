@@ -1,0 +1,1 @@
+A round-off error, also called a rounding error, is the difference between the calculated approximation of a number and its exact mathematical value. Integer operations will not cause rounding error. Floating-point operations may cause rounding error.

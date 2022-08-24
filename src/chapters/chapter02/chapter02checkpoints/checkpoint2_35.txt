@@ -1,0 +1,3 @@
+Intigers have an amount of digit that can be stored. when you write
+more digits from the limit it will overflow. Floating-point operations
+will not cause overflow. it is for intigers.
