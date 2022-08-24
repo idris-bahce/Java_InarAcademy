@@ -1,0 +1,2 @@
+The fractional part is truncated. 
+Casting does not change the variable being cast.
