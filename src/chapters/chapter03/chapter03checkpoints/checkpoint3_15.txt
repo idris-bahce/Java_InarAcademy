@@ -1,0 +1,4 @@
+0.5
+0.0
+0.234
+because math.random is 0<=x<1
