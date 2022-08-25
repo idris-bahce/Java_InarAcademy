@@ -1,4 +1,4 @@
-package chapter02;
+package chapters.chapter02.chapter02listings;
 
 public class ComputingArea {
 	public static void main(String[] args) {
