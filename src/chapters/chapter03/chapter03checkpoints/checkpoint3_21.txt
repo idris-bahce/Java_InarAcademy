@@ -1,0 +1,6 @@
+x > y > 0 is incorrect
+x = y && y is incorrect
+x /= y is correct
+x or y is incorrect
+x and y is incorrect
+(x != 0) || (x = 0) is incorrect on x = 0. It should be x == 0.
