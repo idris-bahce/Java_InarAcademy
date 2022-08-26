@@ -1,0 +1,4 @@
+we need cases for switch variable.
+if we dont use break keyword our nex line will be processed too.
+yes, given situation we can convert switch to if or vice versa.
+switch statements are more readable.
