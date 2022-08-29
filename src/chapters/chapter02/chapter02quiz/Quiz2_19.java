@@ -6,19 +6,20 @@ public class Quiz2_19 {
 	public static void main(String[] args) {
 		Scanner in = new Scanner(System.in);
 		System.out.println("Enter three points for a triangle: ");
-		double side1 = in.nextDouble();
-		double side2 = in.nextDouble();
-		double side3 = in.nextDouble();
-		double side4 = in.nextDouble();
-		double side5 = in.nextDouble();
-		double side6 = in.nextDouble();
+		double x1 = in.nextDouble();
+		double y1 = in.nextDouble();
+		double x2 = in.nextDouble();
+		double y2 = in.nextDouble();
+		double x3 = in.nextDouble();
+		double y3 = in.nextDouble();
 		
-		double s1 = Math.abs(side2 - side1) ;
-		double s2 = Math.abs(side4 - side3);
-		double s3 = Math.abs(side6 - side5);
+		double side1 = Math.pow((Math.pow(x2 - x1, 2)) + (Math.pow(y2 - y1, 2)), 0.5);
+		double side2 = Math.pow((Math.pow(x3 - x2, 2)) + (Math.pow(y3 - y2, 2)), 0.5);
+		double side3 = Math.pow((Math.pow(x3 - x1, 2)) + (Math.pow(y3 - y1, 2)), 0.5);
 		
-		double S = (s1 + s2 + s3) / 2;
-		area = Math.pow(S, S)
+		double s = (side1 + side2 + side3) / 2;
+		double area = Math.pow(s * (s - side1) * (s - side2) * (s - side3), 0.5);
+		
+		System.out.println("The area of the triangle is " + (int)area * 10 / 10.0);
 	}
-
 }
