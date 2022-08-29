@@ -10,14 +10,13 @@ public class Quiz3_26 {
 		boolean y = true;
 
 		if ((x % 5 == 0) && (x % 6 == 0)) {
-			System.out.println("Is " + x + " divisable by 5 and 6" + y);
-
+			System.out.println("Is " + x + " divisable by 5 and 6: " + y);
 		}
 		if ((x % 5 == 0) || (x % 6 == 0)) {
-			System.out.println("Is " + x + " divisable by 5 or 6" + y);
+			System.out.println("Is " + x + " divisable by 5 or 6: " + y);
 		}
 		if ((x % 5 == 0) ^ (x % 6 == 0)) {
-			System.out.println("Is " + x + " divisable by 5 or 6, but not either." + y);
+			System.out.println("Is " + x + " divisable by 5 or 6, but not either: " + y);
 		}
 
 	}
