@@ -1,4 +1,4 @@
-package chapters.chapter03.chapter03listings;
+package chapters.chapter03.chapter03quiz;
 
 import java.util.Scanner;
 
