@@ -4,24 +4,22 @@ import java.util.Scanner;
 
 public class CheckPoint3_19 {
 	public static void main(String[] args) {
-		boolean num = true;
 		Scanner input = new Scanner(System.in);
 		System.out.println("Enter a number between 1 and 100: ");
 		int x = input.nextInt();
 
 		if (1 < x && x < 100) {
-			System.out.println(num);
+			System.out.println(1 < x && x < 100);
 		} else {
-			System.out.println(!num);
+			System.out.println(1 < x && x < 100);
 		}
-		boolean numb = true;
 		System.out.println("Enter a number between1 and 100 or a negative number: ");
 		int y = input.nextInt();
 
-		if ((1 < y && y < 100) || y < 0) {
-			System.out.println(numb);
+		if ( y < 0 ||(1 < y && y < 100)) {
+			System.out.println(y < 0 ||(1 < y && y < 100));
 		}else {
-			System.out.println(!numb);
+			System.out.println(y < 0 ||(1 < y && y < 100));
 		}
 
 	}
