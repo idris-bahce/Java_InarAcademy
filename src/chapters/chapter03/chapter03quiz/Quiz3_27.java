@@ -9,7 +9,14 @@ public class Quiz3_27 {
 		double x =in.nextDouble();
 		double y =in.nextDouble();
 		
-		
+		if(x == 0 && y <= 100) {
+			System.out.println("The point is in triangle.");
+		}else if (y == 0 && x <= 200) {
+			System.out.println("The point is in triangle.");
+		}else if (y / x <= 0.5) {
+			System.out.println("The point is in triangle.");
+		}else
+			System.out.println("The point is not in triangle.");
 	}
 
 }
