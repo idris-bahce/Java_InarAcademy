@@ -1,0 +1,1 @@
+The Math class is in the java.lang package. Any class in the java.lang package is automatically imported. So there is no need to import it explicitly.
