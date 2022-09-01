@@ -9,6 +9,24 @@ public class CheckPoint4_08 {
 		System.out.println((int)'a');
 		System.out.println((int)'b');
 		
+		System.out.println((char)40);
+		System.out.println((char)59);
+		System.out.println((char)79);
+		System.out.println((char)85);
+		System.out.println((char)90);
+		
+		System.out.println((char)0X40);
+		System.out.println((char)0X5A);
+		System.out.println((char)0X71);
+		System.out.println((char)0X72);
+		System.out.println((char)0X7A);
+
+
+
+
+
+
+	
 	}
 
 }
