@@ -1,0 +1,1 @@
+'\u345dE' is wrong. It must have exactly four hex numbers in the Unicode
