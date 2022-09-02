@@ -1,0 +1,26 @@
+String s = "Welcome to Java";
+Answer: Correct
+
+String s3 = s1 + s2;
+Answer: Correct
+
+String s3 = s1 - s2;
+Answer: Incorrect
+
+s1 == s2
+Answer: Correct 
+
+s1 >= s2
+Answer: Incorrect
+
+s1.compareTo(s2);
+Answer: Correct
+
+int i = s1.length();
+Answer: Correct
+
+char c = s1(0);
+Answer: Incorrect
+
+char c = s1.charAt(s1.length());
+Answer: Incorrect : it's out of bounds, even if the preceding problem is fixed.
