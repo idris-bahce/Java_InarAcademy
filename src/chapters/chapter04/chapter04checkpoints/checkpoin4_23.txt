@@ -1,0 +1,4 @@
+(a) the last item 3 does not have any specifier.
+(b) There is not enough items.
+(c) The data for %f must a floating-point value.
+

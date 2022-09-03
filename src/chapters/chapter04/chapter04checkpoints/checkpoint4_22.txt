@@ -1,0 +1,1 @@
+The specifiers for outputting a boolean value, a character, a decimal integer, a floating-point number, and a string are %b, %c, %d, %f, and %s.
