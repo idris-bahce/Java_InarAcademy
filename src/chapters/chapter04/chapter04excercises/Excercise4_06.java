@@ -1,19 +1,27 @@
 package chapters.chapter04.chapter04excercises;
 
-import java.util.Scanner;
-
 public class Excercise4_06 {
 	public static void main(String[] args) {
-		Scanner in = new Scanner(System.in);
-		System.out.println("Enter the radius of the bounding circle: ");
-		double radius = in.nextDouble();
-		
-		double r = radius/(2 * Math.PI);
-		double x1;
-		double x2;
-		double y1;
-		double y2;
-		double r = Math.pow((x1*x1-x2*x2)+(y1*y1-y2*y2), 0.5);
-	}
 
+		double radius = 40;
+
+		double angle1 = Math.random() * 360;
+		angle1 = angle1 * Math.PI / 180;
+		double x1 = radius * Math.cos(angle1);
+		double y1 = radius * Math.sin(angle1);
+
+		double angle2 = Math.random() * 360;
+		angle2 = angle2 * Math.PI / 180;
+		double x2 = radius * Math.cos(angle2);
+		double y2 = radius * Math.sin(angle2);
+
+		double angle3 = Math.random() * 360;
+		angle3 = angle3 * Math.PI / 180;
+		double x3 = radius * Math.cos(angle3);
+		double y3 = radius * Math.sin(angle3);
+
+		System.out.printf("The first point is %2.2f %2.2f\n", x1, y1);
+		System.out.printf("The second point is %2.2f %2.2f\n", x2, y2);
+		System.out.printf("The third point is %2.2f %2.2f", x3, y3);
+	}
 }
