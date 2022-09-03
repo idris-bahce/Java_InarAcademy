@@ -1,46 +1,32 @@
 package chapters.chapter04.chapter04excercises;
 
-import java.util.Scanner;
 public class CheckPoint4_03 {
-	static double addTwoTriangles(Triangle t1, Triangle t2) {
-    return t1.area + t2.area;
-}
+	public static void main(String[] args) {
 
-public static void main(String[] args) {
+		double x1 = 33.7489954;
+		double y1 = -84.3879824;
+		double x2 = 28.5383355;
+		double y2 = -81.3792365;
+		double x3 = 32.0835407;
+		double y3 = -81.0998342;
+		double x4 = 35.2270869;
+		double y4 = -80.8431267;
 
-    double radius = 6_371.01; // Mean radius of Planet Earth
+		double d1 = 6371.01 * Math.acos(Math.sin(x1) * Math.sin(x2) + Math.cos(x1) * Math.cos(x2) * Math.cos(y1 - y2));
+		double d2 = 6371.01 * Math.acos(Math.sin(x2) * Math.sin(x3) + Math.cos(x2) * Math.cos(x3) * Math.cos(y2 - y3));
+		double d3 = 6371.01 * Math.acos(Math.sin(x1) * Math.sin(x3) + Math.cos(x1) * Math.cos(x3) * Math.cos(y1 - y3));
 
-    // Find distance between points for Triangle2D One
-    double atlantaToCharlotte, charlotteToSavannah, savannahToAtlanta;
+		double s1 = (d1 + d2 + d3) / 2;
+		double area1 = Math.sqrt(s1 * (s1 - d1) * (s1 - d2) * (s1 - d3));
 
-    atlantaToCharlotte = radius * Math.acos(Math.sin(-84.27822) * Math.sin(-81.5197542)
-            + Math.cos(-84.2782200) * Math.cos(-81.5197542) * Math.cos(33.8901000 - 32.10815));
+		double d4 = 6371.01 * Math.acos(Math.sin(x1) * Math.sin(x4) + Math.cos(x1) * Math.cos(x4) * Math.cos(y1 - y4));
+		double d5 = 6371.01 * Math.acos(Math.sin(x3) * Math.sin(x4) + Math.cos(x3) * Math.cos(x4) * Math.cos(y3 - y4));
 
-    charlotteToSavannah = radius * Math.acos(Math.sin(-80.95676) * Math.sin(-81.17461)
-            + Math.cos(-80.95676) * Math.cos(-81.1746100) * Math.cos(35.20724 - 32.1081500));
+		double s2 = (d4 + d5 + d3) / 2;
+		double area2 = Math.sqrt(s2 * (s2 - d4) * (s2 - d5) * (s2 - d3));
 
-    savannahToAtlanta = radius * Math.acos(Math.sin(-81.17461) * Math.sin(-84.27822)
-            + Math.cos(-81.1746100) * Math.cos(-84.27822) * Math.cos(32.10815 - 33.8901));
+		double area3 = area1 + area2;
 
-    Triangle triangle1 = new Triangle(atlantaToCharlotte, charlotteToSavannah, savannahToAtlanta);
-    triangle1.computeArea();
-
-    // Find the distance need for Triangle2D two
-    double savannahToOrlando, orlandoToAtlanta;
-
-    savannahToOrlando = radius * Math.acos(Math.sin(-81.17461) * Math.sin(-81.5197542)
-            + Math.cos(81.17461) * Math.cos(-81.5197542) * Math.cos(32.10815 - 28.4283959));
-
-    orlandoToAtlanta = radius * Math.acos(Math.sin(-84.27822) * Math.sin(-81.519754)
-            + Math.cos(81.17461) * Math.cos(-81.5197542) * Math.cos(33.8901000 - 28.4283959));
-
-    Triangle triangle2 = new Triangle(savannahToOrlando, orlandoToAtlanta, savannahToAtlanta);
-    triangle2.computeArea();
-
-    double areaOfPolygon = addTwoTriangles(triangle1, triangle2);
-
-    System.out.printf("Using the Great Circle calculation, the estimated area enclosed by "
-            + "\nAtlanta, Charlotte, Savannah, and Orlando is %.4f", areaOfPolygon);
-
-}
+		System.out.println("The estimated area enclosed by four cities is " + area3);
+	}
 }
