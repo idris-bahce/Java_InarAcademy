@@ -13,6 +13,7 @@ public class HexDigit2Dec {
 			System.exit(1);
 		}
 		char ch = hexString.charAt(0);
+		
 		if (ch <= 'F' && ch >= 'A') {
 			int value = ch - 'A' + 10;
 			System.out.println("The decimal value for hex digit " + ch + " is " + value);
