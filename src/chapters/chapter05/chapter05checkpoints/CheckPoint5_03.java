@@ -16,8 +16,9 @@ public class CheckPoint5_03 {
 		
 		int i = 1;
 		while (i < 10)
-		if ((i++) % 2 == 0)
+		if ((i++) % 2 == 0) {
 		System.out.println(i);
+		}
 		//The loop body is executed nine times. The output is 3, 5, 7, 9 on separate lines.
 	}
 
