@@ -11,9 +11,10 @@ public class PrimeNumbers {
 			for (int i = 2; i < primeNum; i++) {
 				if(primeNum % i == 0) {
 					isPrimeNum = false;
+					break;
 				}
 			}
-			if(isPrimeNum=true) {
+			if(isPrimeNum) {
 				primeNumCount++;
 				System.out.println(primeNumCount + ". prime number is: " + primeNum);
 			}
