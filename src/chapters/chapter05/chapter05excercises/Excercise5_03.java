@@ -10,7 +10,8 @@ public class Excercise5_03 {
 		
 		while(kilogram<200) {
 			pound = kilogram * 2.2;
-			System.out.println(kilogram + " \t\t  " + ((int)(pound * 10) / 10.0));
+			System.out.printf(kilogram + " \t\t %.2f", pound);
+			System.out.println();
 			kilogram++;
 		}
 	}
