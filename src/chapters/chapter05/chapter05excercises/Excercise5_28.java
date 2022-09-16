@@ -34,7 +34,7 @@ public class Excercise5_28 {
 				break;
 			case 5:
 				nameOfMonth = "May";
-				days+=31;
+				days+=30;
 				break;
 			case 6:
 				nameOfMonth = "June";
@@ -42,7 +42,7 @@ public class Excercise5_28 {
 				break;
 			case 7:
 				nameOfMonth = "July";
-				days+=31;
+				days+=30;
 				break;
 			case 8:
 				nameOfMonth = "August";
@@ -54,7 +54,7 @@ public class Excercise5_28 {
 				break;
 			case 10:
 				nameOfMonth = "October";
-				days+=31;
+				days+=30;
 				break;
 			case 11:
 				nameOfMonth = "November";
@@ -62,7 +62,7 @@ public class Excercise5_28 {
 				break;
 			case 12:
 				nameOfMonth = "December";
-				days+=31;
+				days+=30;
 				break;
 			}
 			days = days % 7;

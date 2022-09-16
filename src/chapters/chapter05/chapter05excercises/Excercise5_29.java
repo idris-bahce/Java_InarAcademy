@@ -101,3 +101,15 @@ public class Excercise5_29 {
 
 	}
 }
+/*January    1 ,2013 is Tuesday   
+Fabruary   1 ,2013 is Friday    
+March      1 ,2013 is Friday    
+April      1 ,2013 is Monday    
+May        1 ,2013 is Wednesday 
+June       1 ,2013 is Saturday  
+July       1 ,2013 is Monday    
+August     1 ,2013 is Thursday  
+September  1 ,2013 is Sunday    
+October    1 ,2013 is Tuesday   
+November   1 ,2013 is Friday    
+December   1 ,2013 is Sunday */
