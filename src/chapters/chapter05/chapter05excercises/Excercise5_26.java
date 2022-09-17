@@ -30,8 +30,8 @@ public class Excercise5_26 {
 		int factor = 20000;
 		while (iteration > 0) {
 			double num = 0;
-			for (int i = factor; i > 0; i--) {
-				num += i;
+			for (int i = factor; i > 1; i--) {
+				num *= i;
 			}
 			sum += 1 / num;
 			iteration--;
