@@ -13,12 +13,13 @@ public class Excercise5_45 {
 		for (int i = 0; i < 10; i++) {
 			double num = in.nextDouble();
 			sum += num;
-			mean = sum /10;
-			step1toDeviation +=Math.pow(mean - num, 2);
+			mean = sum / 10;
+			step1toDeviation += Math.pow(mean - num, 2);
 		}
-		
+
 		standartDeviation = Math.sqrt(step1toDeviation);
 		System.out.println("The mean is: " + mean);
 		System.out.println("The standart deviation is: " + standartDeviation);
 	}
 }
+//unfinished code
