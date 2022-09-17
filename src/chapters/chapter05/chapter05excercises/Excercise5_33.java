@@ -4,6 +4,6 @@ import java.util.Scanner;
 
 public class Excercise5_33 {
 	public static void main(String[] args) {
-		sf
+		
 	}
 }
