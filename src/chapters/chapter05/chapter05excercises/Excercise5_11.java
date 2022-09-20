@@ -1,6 +1,7 @@
 package chapters.chapter05.chapter05excercises;
 
-public class CheckPoint5_11 {
+public class Excercise5_11 {
+
 	public static void main(String[] args) {
 		int counter = 0;
 		for (int i = 100; i < 201; i++) {
@@ -15,4 +16,5 @@ public class CheckPoint5_11 {
 			}
 		}
 	}
+
 }
