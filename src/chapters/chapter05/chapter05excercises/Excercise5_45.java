@@ -14,12 +14,11 @@ public class Excercise5_45 {
 			double num = in.nextDouble();
 			sum += num;
 			mean = sum / 10;
-			step1toDeviation += Math.pow(mean - num, 2);
+			step1toDeviation += num * num;
 		}
 
-		standartDeviation = Math.sqrt(step1toDeviation);
+		standartDeviation = Math.pow(((step1toDeviation - ((sum*sum) / 10 )) / 9 ), 0.5) ;
 		System.out.println("The mean is: " + mean);
 		System.out.println("The standart deviation is: " + standartDeviation);
 	}
 }
-//unfinished code

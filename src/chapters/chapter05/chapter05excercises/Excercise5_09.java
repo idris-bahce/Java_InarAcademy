@@ -32,7 +32,7 @@ public class Excercise5_09 {
 		}
 		
 		System.out.println("The highest score is " + name + "'s score, it is " + score);
-		System.out.println("The highest score is " + str2 + "'s score, it is " + s2);
+		System.out.println("The second highest score is " + str2 + "'s score, it is " + s2);
 
 	}
 }
