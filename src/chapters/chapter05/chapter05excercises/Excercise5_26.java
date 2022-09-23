@@ -6,22 +6,17 @@ public class Excercise5_26 {
 		b();
 	}
 	public static void a() {
-		double e = 0;
-		double sum = 0;
-		int iteration = 10000;
-		int factor = 10000;
-		while (iteration > 0) {
-			double num = 0;
-			for (int i = factor; i > 0; i--) {
-				num += i;
+		double sum = 1;
+		int iteration = 1;
+		while (iteration < 10000) {
+			double num = 1;
+			for (double i = 1; i <= iteration; i++) {
+				num *= i;
 			}
 			sum += 1 / num;
-			iteration--;
-			factor--;
+			iteration++;
 		}
-		e = 1 + sum;
-		System.out.println(e);
-		System.out.println(Math.E);
+		System.out.println(sum);
 	}
 	public static void b() {
 		double e = 0;
@@ -29,7 +24,7 @@ public class Excercise5_26 {
 		int iteration = 20000;
 		int factor = 20000;
 		while (iteration > 0) {
-			double num = 0;
+			double num = 1;
 			for (int i = factor; i > 1; i--) {
 				num *= i;
 			}
@@ -39,6 +34,5 @@ public class Excercise5_26 {
 		}
 		e = 1 + sum;
 		System.out.println(e);
-		System.out.println(Math.E);
 	}
 }
